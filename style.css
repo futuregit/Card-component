@@ -114,7 +114,8 @@ span {
         min-width: 80vw;
         width: 75vh;
         /* min-height: 50vh; */
-        height: 60vh;
+        /* height: 60vh; Replaced this with height: auto so container can expand to match children elements height */
+	height: auto;
         /* background: maroon; */
     }
 
